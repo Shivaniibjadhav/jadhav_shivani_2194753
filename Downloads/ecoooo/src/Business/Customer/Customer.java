@@ -12,7 +12,7 @@ import java.util.ArrayList;
  *
  * @author harold
  */
-    public class Customer {
+      public class Customer {
     private String name;
     private int id;
     private String address;
