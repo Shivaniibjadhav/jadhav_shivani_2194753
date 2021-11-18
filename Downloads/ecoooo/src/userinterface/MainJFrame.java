@@ -63,10 +63,11 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         loginJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        loginJButton.setForeground(new java.awt.Color(255, 255, 0));
         loginJButton.setText("Login");
         loginJButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,13 +75,14 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
         jLabel1.setText("User Name:");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
         jLabel2.setText("Password:");
 
         logoutJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        logoutJButton.setForeground(new java.awt.Color(255, 255, 0));
         logoutJButton.setText("Logout");
         logoutJButton.setEnabled(false);
         logoutJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -89,7 +91,8 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        label1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        label1.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
+        label1.setForeground(new java.awt.Color(255, 255, 51));
         label1.setText("Please Sign-in");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
