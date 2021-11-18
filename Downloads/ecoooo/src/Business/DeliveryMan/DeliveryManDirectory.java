@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author harold
  */
-public class DeliveryManDirectory {
+    public class DeliveryManDirectory {
     private ArrayList<DeliveryMan> deliveryManList;
 
     public DeliveryManDirectory() {
