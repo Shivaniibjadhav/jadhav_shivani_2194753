@@ -111,7 +111,10 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 350, 110, -1));
 
         txtName.setEditable(false);
+        txtName.setForeground(new java.awt.Color(0, 0, 204));
         add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, 150, -1));
+
+        txtPhone.setForeground(new java.awt.Color(0, 0, 204));
         add(txtPhone, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 340, 150, -1));
 
         btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
@@ -129,6 +132,8 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         jLabel4.setForeground(new java.awt.Color(255, 255, 0));
         jLabel4.setText("Address:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 380, 110, 20));
+
+        txtAddress.setForeground(new java.awt.Color(0, 0, 204));
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 150, -1));
 
         jLabel5.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
@@ -136,6 +141,7 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         jLabel5.setText("Name:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 120, -1));
 
+        jComboRestaurants.setForeground(new java.awt.Color(0, 0, 204));
         jComboRestaurants.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboRestaurantsActionPerformed(evt);
