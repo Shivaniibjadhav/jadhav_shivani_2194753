@@ -90,8 +90,10 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         btnManage = new javax.swing.JButton();
         lblTitle = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
 
+        btnBack.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(0, 0, 204));
         btnBack.setText("< Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -123,6 +125,8 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblRestaurants);
 
+        btnDelete.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
         btnDelete.setText("Delete Restaurant");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -131,6 +135,8 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
             }
         });
 
+        btnNewRestaurant.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnNewRestaurant.setForeground(new java.awt.Color(0, 0, 204));
         btnNewRestaurant.setText("Create New Restaurant >");
         btnNewRestaurant.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnNewRestaurant.addActionListener(new java.awt.event.ActionListener() {
@@ -139,10 +145,16 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Restaurant Name:");
 
+        jLabel2.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Address:");
 
+        btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
@@ -151,6 +163,8 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
             }
         });
 
+        btnManage.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnManage.setForeground(new java.awt.Color(0, 0, 204));
         btnManage.setText("Manage Restaurant >");
         btnManage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManage.addActionListener(new java.awt.event.ActionListener() {
@@ -159,7 +173,8 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
             }
         });
 
-        lblTitle.setFont(new java.awt.Font("Lucida Grande", 1, 18)); // NOI18N
+        lblTitle.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        lblTitle.setForeground(new java.awt.Color(0, 0, 204));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Manage Restaurants");
         lblTitle.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

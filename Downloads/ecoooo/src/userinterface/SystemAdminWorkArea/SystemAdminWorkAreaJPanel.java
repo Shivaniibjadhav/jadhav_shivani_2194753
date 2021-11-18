@@ -132,7 +132,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jTree.setBackground(new java.awt.Color(255, 153, 0));
+        jTree.setBackground(new java.awt.Color(204, 204, 255));
         jTree.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         javax.swing.tree.DefaultMutableTreeNode treeNode1 = new javax.swing.tree.DefaultMutableTreeNode("root");
         jTree.setModel(new javax.swing.tree.DefaultTreeModel(treeNode1));
@@ -159,18 +159,21 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         jSplitPane.setLeftComponent(jPanel1);
 
-        jPanel2.setBackground(new java.awt.Color(255, 153, 0));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Selected Node:");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        lblSelectedNode.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        lblSelectedNode.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
+        lblSelectedNode.setForeground(new java.awt.Color(0, 0, 204));
         lblSelectedNode.setText("<View_selected_node>");
         lblSelectedNode.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        btnManageCustomers.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnManageCustomers.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        btnManageCustomers.setForeground(new java.awt.Color(0, 0, 204));
         btnManageCustomers.setText("Manage Customers");
         btnManageCustomers.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageCustomers.addActionListener(new java.awt.event.ActionListener() {
@@ -179,7 +182,8 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnManageRestaurants.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        btnManageRestaurants.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        btnManageRestaurants.setForeground(new java.awt.Color(0, 0, 204));
         btnManageRestaurants.setText("Manage Restaurants");
         btnManageRestaurants.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageRestaurants.addActionListener(new java.awt.event.ActionListener() {
@@ -217,7 +221,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
                 .addComponent(btnManageCustomers, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnManageRestaurants, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(90, Short.MAX_VALUE))
+                .addContainerGap(93, Short.MAX_VALUE))
         );
 
         jSplitPane.setRightComponent(jPanel2);
