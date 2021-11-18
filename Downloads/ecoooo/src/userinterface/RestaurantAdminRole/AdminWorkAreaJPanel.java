@@ -63,15 +63,18 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         txtAddress = new javax.swing.JTextField();
         btnSubmit = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Administrative Page");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 580, -1));
 
+        btnManageMenu.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnManageMenu.setForeground(new java.awt.Color(0, 0, 204));
         btnManageMenu.setText("Manage menu");
         btnManageMenu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageMenu.addActionListener(new java.awt.event.ActionListener() {
@@ -81,6 +84,8 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnManageMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, 190, 30));
 
+        btnManageOrders.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnManageOrders.setForeground(new java.awt.Color(0, 0, 204));
         btnManageOrders.setText("Manage Orders");
         btnManageOrders.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageOrders.addActionListener(new java.awt.event.ActionListener() {
@@ -90,25 +95,33 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnManageOrders, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 190, 30));
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 204));
         enterpriseLabel.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         enterpriseLabel.setText("Restaurant :");
         enterpriseLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 280, 30));
 
-        valueLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        valueLabel.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        valueLabel.setForeground(new java.awt.Color(0, 0, 204));
         valueLabel.setText("<value>");
         valueLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, 290, 30));
 
+        jLabel2.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Restaurant Name:");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 130, -1));
 
+        jLabel3.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 204));
         jLabel3.setText("Address:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 320, 110, -1));
         add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 280, 150, -1));
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 150, -1));
 
+        btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
