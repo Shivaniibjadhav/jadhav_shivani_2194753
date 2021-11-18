@@ -112,8 +112,9 @@ public class CustomerMessageJPanel extends javax.swing.JPanel {
         enterpriseLabel = new javax.swing.JLabel();
         btnBack = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
 
+        workRequestJTable.setForeground(new java.awt.Color(255, 255, 0));
         workRequestJTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -139,6 +140,8 @@ public class CustomerMessageJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(workRequestJTable);
 
+        requestTestJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        requestTestJButton.setForeground(new java.awt.Color(0, 0, 204));
         requestTestJButton.setText("Add Message >");
         requestTestJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -147,6 +150,8 @@ public class CustomerMessageJPanel extends javax.swing.JPanel {
             }
         });
 
+        refreshTestJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        refreshTestJButton.setForeground(new java.awt.Color(0, 0, 204));
         refreshTestJButton.setText("Refresh");
         refreshTestJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         refreshTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -156,8 +161,11 @@ public class CustomerMessageJPanel extends javax.swing.JPanel {
         });
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 17)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 255));
         enterpriseLabel.setText("<>");
 
+        btnBack.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(0, 0, 204));
         btnBack.setText("< Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -201,7 +209,7 @@ public class CustomerMessageJPanel extends javax.swing.JPanel {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(requestTestJButton, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(162, Short.MAX_VALUE))
+                .addContainerGap(158, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
