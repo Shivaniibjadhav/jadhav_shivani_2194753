@@ -77,29 +77,36 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         jLabel6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Customer Page");
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 580, -1));
 
         enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 255));
         enterpriseLabel.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         enterpriseLabel.setText("Welcome! ");
         enterpriseLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 280, 30));
 
         valueLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        valueLabel.setForeground(new java.awt.Color(0, 0, 255));
         valueLabel.setText("<value>");
         valueLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         add(valueLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, 290, 30));
 
+        jLabel2.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 0));
         jLabel2.setText("Where would you like to eat today?");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 160, 260, -1));
 
+        jLabel3.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 0));
         jLabel3.setText("Phone:");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 350, 110, -1));
 
@@ -107,6 +114,8 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         add(txtName, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, 150, -1));
         add(txtPhone, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 340, 150, -1));
 
+        btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(0, 0, 255));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
@@ -116,10 +125,14 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         });
         add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 420, 80, 40));
 
+        jLabel4.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 0));
         jLabel4.setText("Address:");
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 380, 110, 20));
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 380, 150, -1));
 
+        jLabel5.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 0));
         jLabel5.setText("Name:");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 310, 120, -1));
 
@@ -130,9 +143,13 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
         });
         add(jComboRestaurants, new org.netbeans.lib.awtextra.AbsoluteConstraints(196, 190, 170, -1));
 
+        jLabel6.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 0));
         jLabel6.setText("Update Details");
         add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, -1, -1));
 
+        jButton1.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 0));
         jButton1.setText("Review Orders");
         jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
