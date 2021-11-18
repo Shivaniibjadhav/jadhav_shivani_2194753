@@ -122,9 +122,11 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
         valueLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         valueLabel1.setText("<value>");
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
+        setForeground(new java.awt.Color(255, 255, 0));
 
-        lblRestaurant.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        lblRestaurant.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        lblRestaurant.setForeground(new java.awt.Color(51, 0, 204));
         lblRestaurant.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblRestaurant.setText("<value>");
         lblRestaurant.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
@@ -170,6 +172,8 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
         });
         jScrollPane2.setViewportView(tblMenu);
 
+        btnAddItem.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        btnAddItem.setForeground(new java.awt.Color(51, 0, 204));
         btnAddItem.setText("Add Item to Order");
         btnAddItem.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
@@ -178,10 +182,14 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 0, 204));
         jLabel1.setText("Total Amount:");
 
         txtAmount.setEditable(false);
 
+        btnDelete.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(51, 0, 204));
         btnDelete.setText("Delete Item");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -190,6 +198,8 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
             }
         });
 
+        btnOrder.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        btnOrder.setForeground(new java.awt.Color(51, 0, 204));
         btnOrder.setText("Confirm Order");
         btnOrder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnOrder.addActionListener(new java.awt.event.ActionListener() {
@@ -198,6 +208,8 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(51, 0, 204));
         btnBack.setText("< Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -254,7 +266,7 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
                     .addComponent(jLabel1)
                     .addComponent(txtAmount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(btnOrder, javax.swing.GroupLayout.DEFAULT_SIZE, 38, Short.MAX_VALUE)
+                .addComponent(btnOrder, javax.swing.GroupLayout.DEFAULT_SIZE, 34, Short.MAX_VALUE)
                 .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents

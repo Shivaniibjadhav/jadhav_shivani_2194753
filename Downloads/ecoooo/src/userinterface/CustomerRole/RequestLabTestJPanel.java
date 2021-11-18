@@ -54,10 +54,12 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         enterpriseLabel = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         requestTestJButton.setBackground(new java.awt.Color(255, 153, 0));
+        requestTestJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        requestTestJButton.setForeground(new java.awt.Color(0, 0, 204));
         requestTestJButton.setText("Submit Message");
         requestTestJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         requestTestJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -67,11 +69,18 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         });
         add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, -1, -1));
 
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Message: ");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 46, -1, 30));
+
+        messageJTextField.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        messageJTextField.setForeground(new java.awt.Color(255, 255, 0));
         add(messageJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, 150, -1));
 
         backJButton.setBackground(new java.awt.Color(255, 153, 0));
+        backJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(0, 0, 204));
         backJButton.setText("<<Back");
         backJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -81,7 +90,8 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         });
         add(backJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        enterpriseLabel.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 204));
         enterpriseLabel.setText("<>");
         add(enterpriseLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 170, 30));
     }// </editor-fold>//GEN-END:initComponents
