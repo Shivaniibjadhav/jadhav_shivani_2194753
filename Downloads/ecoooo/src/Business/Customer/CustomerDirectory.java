@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author harold
  */
-public class CustomerDirectory {
+    public class CustomerDirectory {
     private ArrayList<Customer> customerList;
 
     public CustomerDirectory() {
