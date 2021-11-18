@@ -9,7 +9,7 @@ package Business.DeliveryMan;
  *
  * @author harold
  */
-public class DeliveryMan {
+    public class DeliveryMan {
     private String name;
     private String phone;
     private String address;
