@@ -99,9 +99,11 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
         workRequestJTable = new javax.swing.JTable();
         lblDeliveryMan = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        processJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        processJButton.setForeground(new java.awt.Color(0, 0, 204));
         processJButton.setText("Process");
         processJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         processJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -111,6 +113,8 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 160, 90, 30));
 
+        refreshJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        refreshJButton.setForeground(new java.awt.Color(0, 0, 204));
         refreshJButton.setText("Refresh");
         refreshJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -148,6 +152,7 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 940, 100));
 
         lblDeliveryMan.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
+        lblDeliveryMan.setForeground(new java.awt.Color(0, 0, 204));
         lblDeliveryMan.setText("<>");
         add(lblDeliveryMan, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 400, 20));
     }// </editor-fold>//GEN-END:initComponents

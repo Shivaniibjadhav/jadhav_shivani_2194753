@@ -45,8 +45,10 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
         backJButton = new javax.swing.JButton();
         comboStatus = new javax.swing.JComboBox<>();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
 
+        submitJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        submitJButton.setForeground(new java.awt.Color(0, 0, 204));
         submitJButton.setText("Submit Result");
         submitJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         submitJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -55,8 +57,12 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
             }
         });
 
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Result");
 
+        backJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        backJButton.setForeground(new java.awt.Color(0, 0, 204));
         backJButton.setText("Back");
         backJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         backJButton.addActionListener(new java.awt.event.ActionListener() {
@@ -82,7 +88,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                                 .addGap(18, 18, 18)
                                 .addComponent(comboStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(submitJButton))))
-                .addContainerGap(173, Short.MAX_VALUE))
+                .addContainerGap(152, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -95,7 +101,7 @@ public class ProcessWorkRequestJPanel extends javax.swing.JPanel {
                     .addComponent(comboStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(42, 42, 42)
                 .addComponent(submitJButton)
-                .addContainerGap(169, Short.MAX_VALUE))
+                .addContainerGap(161, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

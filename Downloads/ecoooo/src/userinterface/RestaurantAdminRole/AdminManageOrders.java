@@ -98,14 +98,16 @@ public class AdminManageOrders extends javax.swing.JPanel {
         btnBack = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setFont(new java.awt.Font("Monospaced", 1, 20)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 204));
         enterpriseLabel.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         enterpriseLabel.setText("Restaurant :");
         enterpriseLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        valueLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        valueLabel.setFont(new java.awt.Font("Monospaced", 1, 20)); // NOI18N
+        valueLabel.setForeground(new java.awt.Color(0, 0, 204));
         valueLabel.setText("<value>");
         valueLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -132,9 +134,12 @@ public class AdminManageOrders extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblOrders);
 
-        jLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
         jLabel1.setText("Current Orders");
 
+        btnAssignDeliveryMan.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnAssignDeliveryMan.setForeground(new java.awt.Color(0, 0, 204));
         btnAssignDeliveryMan.setText("Assign Delivery Man");
         btnAssignDeliveryMan.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAssignDeliveryMan.addActionListener(new java.awt.event.ActionListener() {
@@ -143,6 +148,8 @@ public class AdminManageOrders extends javax.swing.JPanel {
             }
         });
 
+        btnBack.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(0, 0, 204));
         btnBack.setText("< Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -151,6 +158,8 @@ public class AdminManageOrders extends javax.swing.JPanel {
             }
         });
 
+        btnDelete.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
+        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
         btnDelete.setText("Delete");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -186,7 +195,7 @@ public class AdminManageOrders extends javax.swing.JPanel {
                         .addComponent(comboDeliveryMen, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(74, 74, 74)
                         .addComponent(btnAssignDeliveryMan, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(54, Short.MAX_VALUE))
+                .addContainerGap(46, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

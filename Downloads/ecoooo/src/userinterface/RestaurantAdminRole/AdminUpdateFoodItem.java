@@ -51,13 +51,16 @@ public class AdminUpdateFoodItem extends javax.swing.JPanel {
         jSpinPrice = new javax.swing.JSpinner();
         btnSubmit = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 153, 0));
+        setBackground(new java.awt.Color(204, 204, 255));
 
-        enterpriseLabel.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        enterpriseLabel.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
+        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 204));
         enterpriseLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         enterpriseLabel.setText("Update Food Item");
         enterpriseLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
+        btnBack.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
+        btnBack.setForeground(new java.awt.Color(0, 0, 204));
         btnBack.setText("< Back");
         btnBack.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnBack.addActionListener(new java.awt.event.ActionListener() {
@@ -68,10 +71,16 @@ public class AdminUpdateFoodItem extends javax.swing.JPanel {
 
         txtName.setEditable(false);
 
+        jLabel2.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 204));
         jLabel2.setText("Name:");
 
+        jLabel3.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 204));
         jLabel3.setText("Price:");
 
+        btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
@@ -87,7 +96,7 @@ public class AdminUpdateFoodItem extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(btnBack)
-                .addContainerGap(541, Short.MAX_VALUE))
+                .addContainerGap(536, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(173, 173, 173)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
