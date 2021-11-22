@@ -135,7 +135,7 @@ public class AdminManageOrders extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblOrders);
 
         jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
         jLabel1.setText("Current Orders");
 
         btnAssignDeliveryMan.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N

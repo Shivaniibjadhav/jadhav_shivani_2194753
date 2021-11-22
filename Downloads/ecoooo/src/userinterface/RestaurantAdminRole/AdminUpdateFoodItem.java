@@ -54,7 +54,7 @@ public class AdminUpdateFoodItem extends javax.swing.JPanel {
         setBackground(new java.awt.Color(204, 204, 255));
 
         enterpriseLabel.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
-        enterpriseLabel.setForeground(new java.awt.Color(0, 0, 204));
+        enterpriseLabel.setForeground(new java.awt.Color(255, 255, 0));
         enterpriseLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         enterpriseLabel.setText("Update Food Item");
         enterpriseLabel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

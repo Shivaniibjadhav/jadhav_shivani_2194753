@@ -74,7 +74,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 580, -1));
 
         btnManageMenu.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnManageMenu.setForeground(new java.awt.Color(0, 0, 204));
+        btnManageMenu.setForeground(new java.awt.Color(255, 255, 0));
         btnManageMenu.setText("Manage menu");
         btnManageMenu.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageMenu.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +85,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         add(btnManageMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, 190, 30));
 
         btnManageOrders.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnManageOrders.setForeground(new java.awt.Color(0, 0, 204));
+        btnManageOrders.setForeground(new java.awt.Color(255, 255, 0));
         btnManageOrders.setText("Manage Orders");
         btnManageOrders.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageOrders.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +121,7 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 150, -1));
 
         btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
+        btnSubmit.setForeground(new java.awt.Color(255, 255, 0));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {

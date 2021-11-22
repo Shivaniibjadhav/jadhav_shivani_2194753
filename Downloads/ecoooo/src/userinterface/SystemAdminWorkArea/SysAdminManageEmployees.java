@@ -167,7 +167,7 @@ public class SysAdminManageEmployees extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblProfile);
 
         btnDelete.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 0));
         btnDelete.setText("Delete Employee");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -177,7 +177,7 @@ public class SysAdminManageEmployees extends javax.swing.JPanel {
         });
 
         btnNewEmployee.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnNewEmployee.setForeground(new java.awt.Color(0, 0, 204));
+        btnNewEmployee.setForeground(new java.awt.Color(255, 255, 0));
         btnNewEmployee.setText("Create New Employee >");
         btnNewEmployee.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnNewEmployee.addActionListener(new java.awt.event.ActionListener() {
@@ -209,7 +209,7 @@ public class SysAdminManageEmployees extends javax.swing.JPanel {
         });
 
         btnManage.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnManage.setForeground(new java.awt.Color(0, 0, 204));
+        btnManage.setForeground(new java.awt.Color(255, 255, 0));
         btnManage.setText("Manage Employee >");
         btnManage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManage.addActionListener(new java.awt.event.ActionListener() {

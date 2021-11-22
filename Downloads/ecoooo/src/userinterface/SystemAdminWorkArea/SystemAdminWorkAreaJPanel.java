@@ -173,7 +173,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblSelectedNode.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         btnManageCustomers.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
-        btnManageCustomers.setForeground(new java.awt.Color(0, 0, 204));
+        btnManageCustomers.setForeground(new java.awt.Color(255, 255, 0));
         btnManageCustomers.setText("Manage Customers");
         btnManageCustomers.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageCustomers.addActionListener(new java.awt.event.ActionListener() {
@@ -183,7 +183,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
         });
 
         btnManageRestaurants.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
-        btnManageRestaurants.setForeground(new java.awt.Color(0, 0, 204));
+        btnManageRestaurants.setForeground(new java.awt.Color(255, 255, 0));
         btnManageRestaurants.setText("Manage Restaurants");
         btnManageRestaurants.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManageRestaurants.addActionListener(new java.awt.event.ActionListener() {

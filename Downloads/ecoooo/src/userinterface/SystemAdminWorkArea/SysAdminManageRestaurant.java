@@ -126,7 +126,7 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblRestaurants);
 
         btnDelete.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 0));
         btnDelete.setText("Delete Restaurant");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -136,7 +136,7 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         });
 
         btnNewRestaurant.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnNewRestaurant.setForeground(new java.awt.Color(0, 0, 204));
+        btnNewRestaurant.setForeground(new java.awt.Color(255, 255, 0));
         btnNewRestaurant.setText("Create New Restaurant >");
         btnNewRestaurant.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnNewRestaurant.addActionListener(new java.awt.event.ActionListener() {
@@ -154,7 +154,7 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         jLabel2.setText("Address:");
 
         btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
+        btnSubmit.setForeground(new java.awt.Color(255, 255, 0));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
@@ -164,7 +164,7 @@ public class SysAdminManageRestaurant extends javax.swing.JPanel {
         });
 
         btnManage.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnManage.setForeground(new java.awt.Color(0, 0, 204));
+        btnManage.setForeground(new java.awt.Color(255, 255, 0));
         btnManage.setText("Manage Restaurant >");
         btnManage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManage.addActionListener(new java.awt.event.ActionListener() {

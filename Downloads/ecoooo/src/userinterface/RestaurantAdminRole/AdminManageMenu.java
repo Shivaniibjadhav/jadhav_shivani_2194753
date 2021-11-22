@@ -151,7 +151,7 @@ public class AdminManageMenu extends javax.swing.JPanel {
         });
 
         btnDelete.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 0));
         btnDelete.setText("Delete Food Item");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -161,7 +161,7 @@ public class AdminManageMenu extends javax.swing.JPanel {
         });
 
         btnManage.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnManage.setForeground(new java.awt.Color(0, 0, 204));
+        btnManage.setForeground(new java.awt.Color(255, 255, 0));
         btnManage.setText("Manage Food Item >");
         btnManage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManage.addActionListener(new java.awt.event.ActionListener() {
@@ -171,7 +171,7 @@ public class AdminManageMenu extends javax.swing.JPanel {
         });
 
         btnCreate.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnCreate.setForeground(new java.awt.Color(0, 0, 204));
+        btnCreate.setForeground(new java.awt.Color(255, 255, 0));
         btnCreate.setText("New Food Item >");
         btnCreate.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnCreate.addActionListener(new java.awt.event.ActionListener() {

@@ -135,7 +135,7 @@ public class SysAdminUpdateEmployee extends javax.swing.JPanel {
         jLabel3.setText("Confirm Password:");
 
         btnSubmit.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 0, 204));
+        btnSubmit.setForeground(new java.awt.Color(255, 255, 0));
         btnSubmit.setText("Submit");
         btnSubmit.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
@@ -145,7 +145,7 @@ public class SysAdminUpdateEmployee extends javax.swing.JPanel {
         });
 
         lblTitle.setFont(new java.awt.Font("Monospaced", 1, 18)); // NOI18N
-        lblTitle.setForeground(new java.awt.Color(0, 0, 204));
+        lblTitle.setForeground(new java.awt.Color(255, 255, 0));
         lblTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblTitle.setText("Update Employee Information");
         lblTitle.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));

@@ -157,7 +157,7 @@ public class SysAdminManageCustomers extends javax.swing.JPanel {
         jScrollPane1.setViewportView(tblProfile);
 
         btnDelete.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(0, 0, 204));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 0));
         btnDelete.setText("Delete Customer");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -167,7 +167,7 @@ public class SysAdminManageCustomers extends javax.swing.JPanel {
         });
 
         btnNewCustomer.setFont(new java.awt.Font("Monospaced", 1, 14)); // NOI18N
-        btnNewCustomer.setForeground(new java.awt.Color(0, 0, 204));
+        btnNewCustomer.setForeground(new java.awt.Color(255, 255, 0));
         btnNewCustomer.setText("Create New Customer >");
         btnNewCustomer.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnNewCustomer.addActionListener(new java.awt.event.ActionListener() {
@@ -199,7 +199,7 @@ public class SysAdminManageCustomers extends javax.swing.JPanel {
         });
 
         btnManage.setFont(new java.awt.Font("Monospaced", 1, 13)); // NOI18N
-        btnManage.setForeground(new java.awt.Color(0, 0, 204));
+        btnManage.setForeground(new java.awt.Color(255, 255, 0));
         btnManage.setText("Manage Customer >");
         btnManage.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnManage.addActionListener(new java.awt.event.ActionListener() {
