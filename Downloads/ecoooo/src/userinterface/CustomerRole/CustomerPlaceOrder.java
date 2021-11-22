@@ -173,7 +173,7 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
         jScrollPane2.setViewportView(tblMenu);
 
         btnAddItem.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnAddItem.setForeground(new java.awt.Color(51, 0, 204));
+        btnAddItem.setForeground(new java.awt.Color(255, 255, 0));
         btnAddItem.setText("Add Item to Order");
         btnAddItem.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnAddItem.addActionListener(new java.awt.event.ActionListener() {
@@ -183,13 +183,13 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
         });
 
         jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 255));
         jLabel1.setText("Total Amount:");
 
         txtAmount.setEditable(false);
 
         btnDelete.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(51, 0, 204));
+        btnDelete.setForeground(new java.awt.Color(255, 255, 0));
         btnDelete.setText("Delete Item");
         btnDelete.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -199,7 +199,7 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
         });
 
         btnOrder.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        btnOrder.setForeground(new java.awt.Color(51, 0, 204));
+        btnOrder.setForeground(new java.awt.Color(255, 255, 0));
         btnOrder.setText("Confirm Order");
         btnOrder.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         btnOrder.addActionListener(new java.awt.event.ActionListener() {
@@ -244,7 +244,7 @@ public class CustomerPlaceOrder extends javax.swing.JPanel {
                             .addComponent(lblRestaurant, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(183, 183, 183)
-                        .addComponent(btnAddItem, javax.swing.GroupLayout.PREFERRED_SIZE, 161, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnAddItem, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(99, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
