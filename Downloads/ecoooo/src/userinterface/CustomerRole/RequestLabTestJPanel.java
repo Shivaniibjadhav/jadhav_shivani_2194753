@@ -70,7 +70,7 @@ public class RequestLabTestJPanel extends javax.swing.JPanel {
         add(requestTestJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 0));
         jLabel1.setText("Message: ");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 46, -1, 30));
 
