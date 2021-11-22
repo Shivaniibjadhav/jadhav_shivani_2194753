@@ -114,7 +114,7 @@ public class DeliveryManWorkAreaJPanel extends javax.swing.JPanel {
         add(processJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 160, 90, 30));
 
         refreshJButton.setFont(new java.awt.Font("Monospaced", 1, 17)); // NOI18N
-        refreshJButton.setForeground(new java.awt.Color(0, 0, 204));
+        refreshJButton.setForeground(new java.awt.Color(255, 255, 0));
         refreshJButton.setText("Refresh");
         refreshJButton.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         refreshJButton.addActionListener(new java.awt.event.ActionListener() {
